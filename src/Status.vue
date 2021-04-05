@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <h1>{{ homeTitle }}</h1>
-  </div>
+  <h2>{{ title }}</h2>
 </template>
+
 <script>
   export default {
     data () {
       return {
-        homeTitle: 'home!!!'
+        title: '상태 좋습니다.'
       }
     }
   }
